@@ -32,6 +32,8 @@ class TaskController extends Controller
     public function create()
     {
         //
+        //dd('tuto');
+        return view('task.create');
     }
 
     /**
